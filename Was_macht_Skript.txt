@@ -1,0 +1,23 @@
+Disable unused filesystems
+Check separate partitions (/home, /var, etc.)
+Secure bootloader (GRUB permissions)
+Enable AppArmor
+Kernel security settings (ASLR, core dumps)
+Software updates and unattended-upgrades
+Legal banners (/etc/issue, /etc/motd)
+Remove GUI login (GDM)
+Remove unused services (e.g., FTP, RPC, etc.)
+Disable Avahi, Autofs
+NTP with systemd-timesyncd
+Secure cron and at
+Network stack hardening and IPv6 disable
+UFW Firewall with sane defaults
+SSH configuration hardening
+Secure sudo configuration
+Password policy (age, complexity, reuse, umask)
+Account auditing and UID 0 checks
+auditd logging and audit rules
+Enable and secure rsyslog
+Log rotation and journald settings
+Enable acct and process tracking
+Secure /etc/passwd, /etc/shadow, etc.
